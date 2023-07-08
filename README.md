@@ -1,6 +1,6 @@
 # InAppChat Android
 
-[![CodeFactor](https://www.codefactor.io/repository/github/inappchat/inappchat-android/badge)](https://www.codefactor.io/repository/github/inappchat/inappchat-android) ![Cocoapods](https://img.shields.io/cocoapods/v/InAppChat?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/RipBullNetworks/inappchat-android) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/ripbullnetworks/inappchat-android)
+[![CodeFactor](https://www.codefactor.io/repository/github/inappchat/android/badge)](https://www.codefactor.io/repository/github/inappchat/android) ![Cocoapods](https://img.shields.io/cocoapods/v/InAppChat?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/inappchat/android) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/inappchat/android)
 
 Delightful chat for your Android apps
 
