@@ -69,6 +69,14 @@ InAppChatContext {
 }
 ```
 
+## Push Notifications (Firebase Cloud Messaging)
+
+For push notifications via FCM, just pass your push token to InAppChat
+
+```kotlin
+InAppChat.registerFCMToken(it)
+```
+
 ## Giphy Support
 
 If you'd like Giphy support in your chats, add the Giphy UI SDK to the your application.
