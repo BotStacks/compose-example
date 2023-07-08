@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InAppChat Sample App</string>
+    <string name="auth0_client_id">yh4DVVnaoqV2iVgBlNxpymEFmDKPZEq5</string>
+    <string name="com_auth0_domain">dev-r72f2gcykjmamnqv.us.auth0.com</string>
+    <string name="giphy">mdRxqGYHayjzra0xUkt58trIyaI1H1TQ</string>
+    <string name="inappchat_namespace">sample.ertc.com</string>
+    <string name="inappchat_api_key">oj2k3r2x</string>
+</resources>
