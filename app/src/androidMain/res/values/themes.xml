@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Botstackschat" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowSplashScreenAnimatedIcon" tools:ignore="NewApi">
+            @mipmap/ic_launcher_round
+        </item>
+    </style>
+
+</resources>
