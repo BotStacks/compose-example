@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--suppress CheckTagEmptyBody -->
-<resources>
-    <string name="botstacks_api_key"></string>
-    <string name="giphy_api_key"></string>
-    <string name="google_maps_api_key"></string>
-</resources>
