@@ -1,26 +1,15 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-        mavenLocal()
-    }
-
-    dependencies {
-        // Add the dependency for the Google services Gradle plugin
-        classpath(libs.gradlePlugin.android)
-        classpath(libs.gradlePlugin.compose)
-        classpath(libs.gradlePlugin.kotlin)
-        classpath(libs.google.services)
-    }
-}
 plugins {
-    alias(libs.plugins.ksp).apply(false)
+    // this is necessary to avoid the plugins to be loaded multiple times
+    // in each subproject's classloader
+    alias(libs.plugins.androidApplication) apply false
+    alias(libs.plugins.androidLibrary) apply false
+    alias(libs.plugins.jetbrainsCompose) apply false
+    alias(libs.plugins.kotlinMultiplatform) apply false
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        mavenLocal()
+buildscript {
+    dependencies {
+        // required for now to include resources from Chat SDK
+        classpath(libs.moko.resources.generator)
     }
 }

@@ -1,0 +1,39 @@
+PODS:
+  - Giphy (2.2.8):
+    - libwebp
+  - GoogleMaps (8.4.0):
+    - GoogleMaps/Maps (= 8.4.0)
+  - GoogleMaps/Base (8.4.0)
+  - GoogleMaps/Maps (8.4.0):
+    - GoogleMaps/Base
+  - libwebp (1.3.2):
+    - libwebp/demux (= 1.3.2)
+    - libwebp/mux (= 1.3.2)
+    - libwebp/sharpyuv (= 1.3.2)
+    - libwebp/webp (= 1.3.2)
+  - libwebp/demux (1.3.2):
+    - libwebp/webp
+  - libwebp/mux (1.3.2):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.3.2)
+  - libwebp/webp (1.3.2):
+    - libwebp/sharpyuv
+
+DEPENDENCIES:
+  - Giphy (= 2.2.8)
+  - GoogleMaps (= 8.4.0)
+
+SPEC REPOS:
+  trunk:
+    - Giphy
+    - GoogleMaps
+    - libwebp
+
+SPEC CHECKSUMS:
+  Giphy: f63ab0e2dd819d6288feba07722aaafe8a5fe4b7
+  GoogleMaps: 8939898920281c649150e0af74aa291c60f2e77d
+  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
+
+PODFILE CHECKSUM: fb2b9274f5e2d01ccf562d24c4c18ff6dea3522f
+
+COCOAPODS: 1.14.3
