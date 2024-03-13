@@ -17,4 +17,8 @@ A Google Maps API key can be added to `keys.xml` for Android. For iOS see https:
 
 To enable location sharing on iOS you also need to add privacy reasons here in your [Info.plist.](https://developer.apple.com/documentation/corelocation/requesting_authorization_to_use_location_services#3385302)
 
+
+## Camera Usage
+To suport "Take a Picture" functionality in a conversation you must also notate your NSCameraUsageDescription permission in Info.plist as well.
+
 ### [Lets Go](introduction.md)
