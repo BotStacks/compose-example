@@ -58,7 +58,7 @@ kotlin {
 
         commonMain {
             dependencies {
-                implementation("ai.botstacks:chat-sdk:1.0.3-SNAPSHOT")
+                implementation("ai.botstacks:chat-sdk:1.0.3")
                 implementation(compose.runtime)
                 implementation(compose.foundation)
                 implementation(compose.material)
